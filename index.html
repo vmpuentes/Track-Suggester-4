@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="js/scripts.js"></script>
+  <title>Track Suggester 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Track Suggester</h1>
+        <p>Hello, and welcome to my Track Suggester Page. Are you consider coding as a career that you want to pursue? Are you not exactly where to begin and what languages to check out? Well, if you answered yes, you've landed on the right page. This page is designed to ask you some questions that will get you thinking about the possibilities in the world of coding! Let's get started!</p>
+        <h2>Answer these questions as best you can and when you're done hit the submit button.<h2>
+      </div>
+    <form id="trackSurvey">
+      <div class="panel">
+        <div class="row">
+          <div class="col-md-4">
+              <h3>Would you like to land a job with a big company that works with proprietary software?</h3>
+              <select class="form-control" id="q1">
+                <option value="1">yes</option>
+                <option value="2">no</option>
+              </select>
+
+          </div>
+
+              <div class="col-md-4">
+                <h3>Are you interested in working with Microsoft platforms?</h3>
+                <select class="form-control" id="q2">
+                  <option value="1">yes</option>
+                  <option value="2">no</option>
+                </select>
+              </div>
+
+          </div>
+          <br>
+
+          <div class="col-md-4">
+            <h3>Do want to learn a language with more rules(to prevent errors) or more flexibilty?</h3>
+            <select class="form-control" id="q3">
+              <option value="1">yes</option>
+              <option value="2">no</option>
+            </select>
+          </div>
+
+        <br>
+          <div class="row">
+
+            <div class="col-md-4">
+              <h3>What do you want to be able to do?</h3>
+              <select class="form-control" id="q4">
+                <option value="1">Create websites like Airbnb, Twitter, or Scrib?</option>
+                <option value="2">Just want to learn a clear general purpose language?</option>
+                <option value="3">Create code the runs in a browser, creates interactive features on webpages as well as chrome extentions?</option>
+                <option value="4">Work with scripts like Wordpress or Wikipedia?</option>
+              </select>
+            </div>
+
+            <br>
+
+              <div class="col-md-4">
+                <h3>Do you want to work with smartphones?</h3>
+                <select class="form-control" id="q5">
+                  <option value="1">yes</option>
+                  <option value="2">no</option>
+                </select>
+              </div>
+
+          </div>
+          <div class="row">
+            <button type="submit" class="btn">Submit Answers</button>
+          </div>
+        </form>
+
+        <div class="trackDescriptions">
+          <p id="Java and C#">Both languages are popular in large companies, large projects and in projects that need optimized code. Java code does not get directly converted into machine code. Instead it runs on a "virtual machine" which can run on all sorts of different hardware. This lets Java fulfill their slogan of "Write once, run anywhere". Java was once intended for widespread use on web browsers, but that is less common and a very different language is used for that (JavaScript). It is used in regular desktop applications, but its most popular consumer use is for creating Android apps. In large companies it is used both internally and to power their websites. It is also commonly taught in colleges.
+            C# can be called "Microsoft's Java", but it also has features missing in Java. It does not yet support multiple platforms as well as Java does, but it does fit well with Microsoft's other offerings. If someone is within a Microsoft world anyways, it likely makes sense to use C# over Java. Microsoft has started to open-source C# and associated technologies, so support for other platforms will improve over time.
+            In summary, you should learn one of these languages if you want to program for a big company,want extra rules to help prevent errors, or if you want to work with very fast software for large projects.</p>
+      </div>
+    </div>
+  </body>
+</html>
