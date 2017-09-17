@@ -1,3 +1,7 @@
+.container {
+  background-image: url("../img/ukraine.png");
+}
+
 .jumbotron {
   background-image: url("../img/hottest-trends-in-technology-2014.jpg");
   text-align: center;
@@ -12,7 +16,13 @@
 }
 
 .well {
+  background-color: light yellow;
   text-align: center;
+}
+
+option {
+  width: 50%;
+  border-style: double;
 }
 
 
