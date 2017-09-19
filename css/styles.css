@@ -1,5 +1,7 @@
-.container {
+body {
   background-image: url("../img/ukraine.png");
+  background-repeat: round;
+  background-size: cover;
 }
 
 .jumbotron {
@@ -16,8 +18,8 @@
 }
 
 .well {
-  background-color: light yellow;
-  text-align: center;
+  background-color: yellow;
+  text-align: left;
 }
 
 option {
