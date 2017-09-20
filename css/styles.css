@@ -1,7 +1,8 @@
+
 body {
   background-image: url("../img/ukraine.png");
-  background-repeat: round;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .jumbotron {
@@ -27,12 +28,11 @@ option {
   border-style: double;
 }
 
-
-/*#javaCsharp {
+#javaCsharp {
   display: none;
 }
 
-#Php {
+#php {
   display: none;
 }
 
