@@ -9,8 +9,8 @@ $(document).ready(function() {
   var questionThree = $('#q3').val().parseInt();
   var questionFour = $('#q4').val().parseInt();
   var questionFive = $('#q5').val().parseInt();
-debugger;
-  event.preventDefault();
+
+  //event.preventDefault();
   if (questionOne === 1 && questionTwo === 1) {
     suggestedLanguage = $('#javaCsharp').show();
   } else if (questionTwo === 2 && questionThree === 1) {
