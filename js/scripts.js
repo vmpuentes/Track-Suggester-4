@@ -11,16 +11,17 @@ $(document).ready(function() {
   var questionFive = $('#q5').val().parseInt();
 
   event.preventDefault();
-  if ($('#q1').val() === 1 && $('#q2').val() === 1) {
-    $("#javaCsharp").show();
-  } else if ($('#q4').val() === 1 || ($('#q3').val() === 2 || ($('#q5').val() === 2)
-    $('#ruby').show();
-  } else if ($('#q4').val(); === 2)
-    $('#python').show();
-  } else if ($('#q4').val(); === 3)
-    $('#php').show();
+  if (questionOne === 1 && questionTwo === 1) {
+    return $('#javaCsharp').show();
+  } else if (questionOne === 2 &&)
+  } else if (questionFour === 1 || (questionThree === 2 || (questionFive === 2)
+    return $('#ruby').show());
+  } else if (questionFour === 2)
+    return $('#python').show();
+  } else if (questionFour === 3)
+    return $('#php').show();
   } else  {
-    $('#javascript').show();
+    return $('#javascript').show();
     }
   });
 });
