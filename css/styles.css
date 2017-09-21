@@ -35,7 +35,7 @@ option {
   border-style: double;
 }
 
-#javaCsharp {
+/*#javaCsharp {
   display: none;
 }
 
@@ -54,3 +54,7 @@ option {
 #javascript {
   display: none;
 }
+
+#generalResponse {
+  display: none;
+}*/
