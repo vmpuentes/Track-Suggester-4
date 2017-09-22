@@ -1,4 +1,7 @@
-# Track Suggester Project/Epicodus/Intro to Programming Sept. '17
+# Track Suggester Project
+Epicodus
+Intro to Programming 
+September 2017
 
 This is my Track Suggester page which will be designed to help prospective students with making a decision about what educational coding track they should pursue. The world of coding can seem very intimidating at first. If you don't know where to start or what interests you, it can seem very daunting to pick a track of study. My page is designed to make that decision easier. Once they load the page and answer a few questions about what peaks their interest in the world of coding, they will be pointed in the right direction by hitting the submit button at the bottom of the page and a coding language description will appear informing the user of where those languages are typically used.
 
