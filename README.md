@@ -14,14 +14,13 @@ What do you need to see this page?
 An updated web browser of your choice.
 ```
 
-
 ## Built With
 
-* [HTML5](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [CSS3](https://maven.apache.org/) - Dependency Management
-* [Jquery](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [Javascript]
-* [Bootstrap]
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Used to contruct this webpage
+* [CSS3](http://html.com/css/) - Used to style 
+* [Javascript] () - Used for user interactives
+* [Jquery](https://www.javascript.com/) - Javascript library used
+* [Bootstrap](http://getbootstrap.com/) - CSS library used
 
 ## Authors
 
