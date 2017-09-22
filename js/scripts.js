@@ -3,15 +3,16 @@ $(document).ready(function() {
   //  var userSelect = $("#trackSurvey").val();
   //  console.log("hello");s
 //    var resultArr = [];
-  var suggestedLanguage = "";
-  var questionOne = $('#q1').val().parseInt();
-  var questionTwo = $('#q2').val().parseInt();
-  var questionThree = $('#q3').val().parseInt();
-  var questionFour = $('#q4').val().parseInt();
-  var questionFive = $('#q5').val().parseInt();
 
+  var questionOne = parseInt($('#q1').val());
+  var questionTwo = parseInt($('#q2').val());
+  var questionThree = parseInt($('#q3').val());
+  var questionFour = parseInt($('#q4').val());
+  var questionFive = parseInt($('#q5').val());
+  var suggestedLanguage = "";
   //event.preventDefault();
   if (questionOne === 1 && questionTwo === 1) {
+    console.log(questionOne);
     suggestedLanguage = $('#javaCsharp').show();
   } else if (questionTwo === 2 && questionThree === 1) {
     suggestedLanguage = $('p#javascript').show()
