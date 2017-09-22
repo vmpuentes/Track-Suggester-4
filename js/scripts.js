@@ -12,19 +12,19 @@ $(document).ready(function() {
   var suggestedLanguage = "";
   //event.preventDefault();
   if (questionOne === 1 && questionTwo === 1) {
-    console.log(questionOne);
     suggestedLanguage = $('#javaCsharp').show();
   } else if (questionTwo === 2 && questionThree === 1) {
-    suggestedLanguage = $('p#javascript').show()
+    suggestedLanguage = $('#javascript').show()
   } else if (questionFour === 1 || questionThree === 2 || questionFive === 2) {
-    suggestedLanguage = $('p#ruby').show();
+    suggestedLanguage = $('#ruby').show();
   } else if (questionFour === 2) {
-    suggestedLanguage = $('p#python').show();
+    suggestedLanguage = $('#python').show();
   } else if (questionFour === 3) {
-    suggestedLanguage = $('p#php').show();
+    suggestedLanguage = $('#php').show();
   } else  {
-    suggestedLanguage = $('p#javascript').show();
+    suggestedLanguage = $('#javascript').show();
     console.log("hello");
     }
+    event.preventDefault();
   });
 });
