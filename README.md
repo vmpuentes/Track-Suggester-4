@@ -18,8 +18,8 @@ An updated web browser of your choice.
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Used to contruct this webpage
 * [CSS3](http://html.com/css/) - Used to style 
-* [Javascript] () - Used for user interactives
-* [Jquery](https://www.javascript.com/) - Javascript library used
+* [Javascript] (https://www.javascript.com/ - Used for user interactives
+* [Jquery](https://jquery.com/) - Javascript library used
 * [Bootstrap](http://getbootstrap.com/) - CSS library used
 
 ## Authors
